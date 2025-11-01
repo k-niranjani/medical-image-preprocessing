@@ -78,4 +78,4 @@ Pillow
 
 ## 🖋️ License
 
-MIT License © 2025 Niranjani
+MIT License © 2025 Niranjani K.
