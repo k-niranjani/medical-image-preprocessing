@@ -1,0 +1,27 @@
+# ==============================
+# 🩺 Eye Preprocessing Pipeline
+# ==============================
+# Core dependencies for image preprocessing and visualization
+
+# ---- Core Python libraries ----
+numpy>=1.23
+pandas>=1.5
+tqdm>=4.65
+
+# ---- Image processing ----
+opencv-python>=4.8
+scikit-image>=0.22
+Pillow>=10.0
+
+# ---- Visualization ----
+matplotlib>=3.7
+
+# ---- Optional (augmentations, ML backends) ----
+# Uncomment if you plan to use these later
+# imgaug>=0.4
+# tensorflow>=2.15
+# keras>=2.15
+
+# ---- Jupyter (for running preprocessing_main.ipynb interactively) ----
+notebook>=7.0
+ipykernel>=6.0
