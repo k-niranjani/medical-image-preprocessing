@@ -20,7 +20,7 @@ MEDICAL-IMAGE-PREPROCESSING/
 │
 ├── pipeline_utils.py          # Handles run organization and naming
 ├── utils.py                   # Common helper utilities (I/O, visualization)
-├── preprocessing_main.ipynb   # Main notebook for preview & batch execution
+├── MEDICAL_IMAGE_PREPROCESSING.ipynb   # Main notebook for preview & batch execution
 ├── requirements.txt           # Dependencies
 ├── .gitignore                 # Ignore build artifacts and cache
 └── LICENSE                    # Open-source license
