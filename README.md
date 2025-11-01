@@ -10,20 +10,20 @@ Designed for reproducible, plug-and-play use with minimal setup.
 ```text
 MEDICAL-IMAGE-PREPROCESSING/
 │
-├── transforms/                # Individual preprocessing modules
+├── transforms/                         # Individual preprocessing modules
 │   ├── crop_dark_borders.py
 │   ├── circle_crop.py
 │   ├── clahe.py
 │   ├── resize.py
 │   ├── unsharp_mask.py
-│   └── NEW_TRANSFORM_GUIDE.md   # How to add your own transform
+│   └── NEW_TRANSFORM_GUIDE.md          # How to add your own transform
 │
-├── pipeline_utils.py          # Handles run organization and naming
-├── utils.py                   # Common helper utilities (I/O, visualization)
+├── pipeline_utils.py                   # Handles run organization and naming
+├── utils.py                            # Common helper utilities (I/O, visualization)
 ├── MEDICAL_IMAGE_PREPROCESSING.ipynb   # Main notebook for preview & batch execution
-├── requirements.txt           # Dependencies
-├── .gitignore                 # Ignore build artifacts and cache
-└── LICENSE                    # Open-source license
+├── requirements.txt                    # Dependencies
+├── .gitignore                          # Ignore build artifacts and cache
+└── LICENSE                             # Open-source license
 ```
 
 ---
