@@ -1,0 +1,67 @@
+# ============================
+# 🧠 Eye-Preprocessing Project
+# ============================
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+.env/
+
+# ---- Jupyter artifacts ----
+.ipynb_checkpoints/
+*.ipynb~
+*.ipynb_checkpoints
+*.ipynb_kernel.json
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs & metadata ----
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ---- Build / packaging ----
+build/
+dist/
+*.egg-info/
+
+# ---- Outputs / results ----
+*_output/
+*_previews/
+processed/
+_previews/
+manifest.csv
+pipeline.json
+
+# ---- Image / dataset caches ----
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Miscellaneous ----
+# Uncomment if using Google Colab or Kaggle
+# /content/
+# /kaggle/
+
+# ---- OS-generated ----
+ehthumbs.db
+Icon?
