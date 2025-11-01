@@ -1,6 +1,6 @@
-# 🩺 Eye Preprocessing Pipeline
+# 🩺 Medical Image Preprocessing Pipeline
 
-A modular preprocessing toolkit for fundus and medical imaging datasets.  
+A modular preprocessing toolkit for medical imaging datasets.  
 Designed for reproducible, plug-and-play use with minimal setup.
 
 ---
@@ -8,7 +8,7 @@ Designed for reproducible, plug-and-play use with minimal setup.
 ## 📂 Project Structure
 
 ```text
-EYE-PREPROCESSING/
+MEDICAL-IMAGE-PREPROCESSING/
 │
 ├── transforms/                # Individual preprocessing modules
 │   ├── crop_dark_borders.py
@@ -31,8 +31,8 @@ EYE-PREPROCESSING/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/<yourusername>/eye-preprocessing.git
-cd eye-preprocessing
+git clone https://github.com/seratonini/medical-image-preprocessing.git
+cd medical-image-preprocessing
 pip install -r requirements.txt
 ```
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ## 🧩 Usage
 
-Open `preprocessing_main.ipynb` in Jupyter or VS Code:
+Open `MEDICAL_IMAGE_PREPROCESSING.ipynb` in Jupyter or VS Code:
 
 1. Add **train/test image folder paths** under the input section.  
 2. Choose one or more transforms (e.g. `clahe`, `resize`, `circle_crop`).  
@@ -58,23 +58,6 @@ Follow the step-by-step guide in
 All new transforms become available automatically once imported in  
 `transforms/__init__.py`.
 
----
-
-## 📦 Requirements
-
-```text
-numpy
-pandas
-opencv-python
-matplotlib
-scikit-image
-tqdm
-Pillow
-```
-
-(Optional: add `tensorflow`, `keras`, or `imgaug` if you plan to extend.)
-
----
 
 ## 🖋️ License
 
